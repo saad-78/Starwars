@@ -1,15 +1,12 @@
 var swiper = new Swiper('.product-slider', {
     spaceBetween: 30,
     effect: 'fade',
-    // initialSlide: 2,
     loop: false,
     navigation: {
         nextEl: '.next',
         prevEl: '.prev'
     },
-    // mousewheel: {
-    //     // invert: false
-    // },
+   
     on: {
         init: function(){
             var index = this.activeIndex;
